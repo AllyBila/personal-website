@@ -1,7 +1,62 @@
+/* <!-- Sections --> */
+.first-section {
+  text-align: center;
+  width: 100%;
+}
+.contact-section {
+  text-align: center;
+}
+.social-links {
+  background-color:#F7F6F2;
+}
+
+#page {
+  padding: 3% 7%;
+  background-color: #EDE6DB;
+}
+/* <!-- NavBar --> */
+
+.nav-bar {
+  font-family: "Roboto Slab";
+  background-color: #F7F6F2;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding: 1 1 1rem;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+}
+/* <!-- Profile card  --> */
+.my-profile {
+  text-align: center;
+  padding: 7%;
+}
+.profile-page {
+  position: relative;
+  align-self: center;
+  text-align: center;
+}
+.myimage {
+  width: 100%;
+}
+
+/* <!-- Skills section  --> */
+#box {
+  padding: 7% 15%;
+}
+.feature-box {
+  text-align: left;
+  padding: 7%;
+}
+
+/* <!-- Text --> */
 body {
   margin: 0;
   text-align: center;
-  font-family: "Roboto Serif";
+  font-family: "Playfair Display";
 }
 
 h1 {
@@ -9,137 +64,47 @@ h1 {
   margin-top: 0;
   width: 10%;
   margin: 0 auto;
-  font-family: "IBM Plex Mono";
+  font-family: "Cutive Mono";
   font-weight: bolder;
 }
 
 h2 {
-  font-family: "Roboto Serif";
+  font-family: "Cormorant Garamond";
   color: #03506F;
   font-weight: 200;
+  text-align: center;
 }
 
 h3 {
   color: #03506F;
-}
-
-hr {
-  border: dotted #9D9D9D 6px;
-  border-bottom: none;
-  width: 4%;
-}
-
-.top-container {
-  background-color: #93B5C6;
-  text-align: center;
-  position: relative;
-}
-
-.middle-container {
-  background-color: #EDE6DB;
-  width: 100%;
-  position: relative;
-}
-
-.bottom-container {
-  background-color: #93B5C6;
-  position: relative;
-  padding: 50px 0 20px;
+  font-family: "Roboto Slab"
 }
 
 span {
   color: #EDE6DB;
 }
-
-.cloud {
-  position: relative;
-  right: 450px;
-  top: 50px;
-  width: 25%;
+p {
+  font-family: "Roboto Sla";
+  color: grey;
 }
 
-.cloud1 {
-  position: relative;
-  left: 450px;
-  bottom: 130px;
-  width: 25%;
-}
+/* <!-- Images --> */
 
-.skill-row {
+.swift-image {
+  width: 5%;
+  height: 5%;
+}
+.icon {
+  color: #03506F;
+  margin-bottom: 1rem;
+}
+.profile-picture {
+width: 70%;
+display: block;
+text-align: center;
+}
+.cloud-image {
   width: 50%;
-  margin: 100px auto 100px auto;
-  text-align: center;
-  line-height: 2;
-}
+  position: relative;
 
-.ux-img {
-  width: 15%;
-  float: left;
-  margin-left: 30px;
-  clear: left;
-}
-
-.sql-img {
-  width: 15%;
-  float: right;
-  margin-right: 30px;
-}
-
-.swift-img {
-  width: 15%;
-  float: right;
-  margin-right: 30px;
-}
-
-.ux-description {
-  bottom: 40px;
-  color: #E3B04B;
-  display: inline;
-}
-
-.sql-description {
-  color: #5584AC;
-  display: inline;
-}
-
-.swift-description {
-  color: #E8630A;
-  display: inline;
-}
-
-.contact-description {
-  width: 40%;
-  margin: 40px auto 60px;
-  line-height: 2;
-}
-
-.btn {
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 28px;
-  font-family: Courier New;
-  color: #ffffff;
-  font-size: 20px;
-  background: #424874;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
-}
-.btn:hover {
-  background: #A6B1E1;
-  text-decoration: none;
-}
-
-a {
-  font-family: "Roboto Serif";
-  color: #EDE6DB;
-  margin: 10px 20px;
-  text-decoration: none;
-}
-a:hover {
-  color: #0A043C;
-}
-
-.bottom-name {
-  font-family: "Roboto Serif";
-  color: #EDE6DB;
 }
