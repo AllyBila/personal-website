@@ -1,4 +1,4 @@
-/* <!-- Sections --> */
+/* <!-- *********** About me page ***********   --> */
 .first-section {
   text-align: center;
   width: 100%;
@@ -14,11 +14,11 @@
   padding: 3% 7%;
   background-color: #EDE6DB;
 }
-/* <!-- NavBar --> */
 
+/* <!-- *********** NavBar ***********   --> */
 .nav-bar {
   font-family: "Roboto Slab";
-  background-color: #F7F6F2;
+  background-color: #EDE6DB;
   padding-bottom: 10px;
   padding-top: 10px;
   padding: 1 1 1rem;
@@ -52,24 +52,21 @@
   padding: 7%;
 }
 
-/* <!-- Text --> */
+/* <!-- *********** Text ***********   --> */
+
 body {
   margin: 0;
   text-align: center;
-  font-family: "Playfair Display";
+  font-family: "Cultive Mono";
 }
 
 h1 {
-  font-size: 3.625rem;
-  margin-top: 0;
-  width: 10%;
-  margin: 0 auto;
-  font-family: "Cutive Mono";
-  font-weight: bolder;
+  font-family: "Roboto Mono";
+  color: #EDE6DB;
 }
 
 h2 {
-  font-family: "Cormorant Garamond";
+  font-family: "Cultive Mono";
   color: #03506F;
   font-weight: 200;
   text-align: center;
@@ -84,16 +81,12 @@ span {
   color: #EDE6DB;
 }
 p {
-  font-family: "Roboto Sla";
-  color: grey;
+  font-family: "Raleway";
+  color: #1A374D;
 }
 
 /* <!-- Images --> */
 
-.swift-image {
-  width: 5%;
-  height: 5%;
-}
 .icon {
   color: #03506F;
   margin-bottom: 1rem;
@@ -103,8 +96,30 @@ width: 70%;
 display: block;
 text-align: center;
 }
-.cloud-image {
-  width: 50%;
-  position: relative;
 
+/* <!-- *********** Project page ***********   --> */
+.work-heading {
+  color: #EDE6DB;
+  width: 100%;
+  font-family: "Roboto Slab";
+}
+.black-page {
+  color: #EDE6DB;
+}
+.decoration {
+  width: 50%;
+}
+.first-project-block {
+  background-color:#F7F6F2;
+}
+.other-blocks {
+  background-color: #EDE6DB;
+}
+/* <!-- *********** Notes page  ***********   --> */
+.heading {
+  background-color: #03506F;
+  text-align: center;
+}
+.news {
+  padding: 0 4%;
 }
