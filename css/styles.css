@@ -84,7 +84,44 @@ p {
   font-family: "Raleway";
   color: #1A374D;
 }
+/* <!-- *********** Tablet and Mobile friendly ***********   --> */
+@media (max-width: 900px){
+  body {
+    margin: 0;
+    text-align: center;
+    font-family: "Cultive Mono";
+    font-size: 40px;
+  }
 
+  h1 {
+    font-family: "Roboto Mono";
+    color: #EDE6DB;
+    font-size: 60px;
+  }
+
+  h2 {
+    font-family: "Cultive Mono";
+    color: #03506F;
+    font-weight: 200;
+    text-align: center;
+    font-size: 50px;
+  }
+
+  h3 {
+    color: #03506F;
+    font-family: "Roboto Slab";
+    font-size: 50px;
+  }
+
+  span {
+    color: #EDE6DB;
+  }
+  p {
+    font-family: "Raleway";
+    color: #1A374D;
+    font-size: 20px;
+  }
+}
 /* <!-- Images --> */
 
 .icon {
@@ -122,4 +159,7 @@ text-align: center;
 }
 .news {
   padding: 0 4%;
+}
+.news-page {
+  background-color: #FEFBF3;
 }
