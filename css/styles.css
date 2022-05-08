@@ -158,10 +158,11 @@ text-align: center;
 .heading {
   background-color: #03506F;
   text-align: center;
-  width: 100%
+  width: 100%;
+  padding-bottom: 30px;
 }
 .news {
-  padding: 0 4%;
+  padding: 2% 4%;
 }
 .news-page {
   background-color: #FEFBF3;
